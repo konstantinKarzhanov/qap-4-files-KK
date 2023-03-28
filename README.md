@@ -6,7 +6,7 @@
 
 <h3>NOTE</h3>
 <p>The script can read the data from files using readDefaultsFile() function.
-The function is designed to read data from a file and return it in a structured form of a list or tuple. It can handle files that are structured with or without a separator. In this specific program, I used the file "OSICDef.dat" which contains the data separated with "=".</p>
+The function is designed to read data from a file and return it in a structured form of a list or tuple. It can handle files that are structured with or without a separator. In this specific program, I used the file "OSICDef.dat" which contains the data separated with "=" (key = value format).</p>
 
 <p>If we decide to read the data from the file containing Only values we need to remove the specified separator "=" on line 212 (LIST_CONSTANTS = readDefaultsFile(FILE_DEFAULTS, "=")) and change the name of the file on line 210 (FILE_DEFAULTS = "newFileName")</p>
 
