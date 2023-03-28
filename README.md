@@ -82,6 +82,6 @@
 <p>After entering all the data, the program will display a graph of your sales data for each month.</p>
 
 
-<h3>License</h3>
+<h2>License</h2>
 <p>These projects is licensed under the terms of the MIT license.</p>
 
