@@ -10,7 +10,7 @@
 <li>datetime</li>
 <li>atexit</li>
 <li>re</li>
-<ul>
+</ul>
 <h3>USAGE</h3>
 <p>To use this script, simply run it from the command line using Python:</p>
 <ul>
