@@ -2,12 +2,13 @@
 
 <h2>#qap-4_project-1_lists-and-datafiles.py: Car Insurance Calculator</h2>
 
-<p>This is a Python script that calculates car insurance premiums based on customer information, insurance options selected, and the data that stored in defaults file <mark>"OSICDef.dat"</mark>.</p>
+<p>This is a Python script that calculates car insurance premiums based on customer information, insurance options selected, and the data that stored in defaults file "OSICDef.dat".</p>
 
-<p>The script can read the data from files using <mark>readDefaultsFile()</mark> function.
-The function is designed to read data from a file and return it in a structured form of a list or tuple. It can handle files that are structured with or without a separator. In this specific program, I used the file <mark>"OSICDef.dat"</mark> which contains the data separated with "=".</p>
+<h3>NOTE</h3>
+<p>The script can read the data from files using readDefaultsFile() function.
+The function is designed to read data from a file and return it in a structured form of a list or tuple. It can handle files that are structured with or without a separator. In this specific program, I used the file "OSICDef.dat" which contains the data separated with "=".</p>
 
-<p>If we decide to read the data from the file containing <mark>only values</mark> we need to remove the specified separator "=" on line <mark>212</mark> (LIST_CONSTANTS = readDefaultsFile(FILE_DEFAULTS, "=")) and change the name of the file on line <mark>210</mark> (FILE_DEFAULTS = "newFileName")</p>
+<p>If we decide to read the data from the file containing Only values we need to remove the specified separator "=" on line 212 (LIST_CONSTANTS = readDefaultsFile(FILE_DEFAULTS, "=")) and change the name of the file on line 210 (FILE_DEFAULTS = "newFileName")</p>
 
 <h3>REQUIREMENTS</h3>
 <p>This script was written using Python 3.9.6. It requires the following Python modules:</p>
